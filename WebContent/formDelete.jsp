@@ -16,15 +16,12 @@
 	<input type="button" value="Delete" id="btn">
 	
 	<script type="text/javascript">
-
-	$("#btn").click(function() {
-		if (confirm("Press a button!")) {
-			bts.submit();
-		} 
-	});
-
+		$("#btn").click(function() {
+			if (confirm("Press a button!")) {
+				bts.submit();
+			} 
+		});
 	</script>
-	
 	
 </form>
 
